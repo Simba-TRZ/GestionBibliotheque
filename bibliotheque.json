@@ -1,0 +1,44 @@
+{
+  "livres": [
+    {
+      "titre": "Les Misérables",
+      "auteur": "Victor Hugo",
+      "annee": 1862,
+      "categorie": "Roman",
+      "emprunte": false
+    },
+    {
+      "titre": "48 lois du pouvoir",
+      "auteur": "Robert Greene",
+      "annee": 1998,
+      "categorie": "Dev personnel",
+      "emprunte": true
+    }
+  ],
+  "utilisateurs": [
+    {
+      "nom": "Aziz",
+      "email": "aziz@exemple.com"
+    },
+    {
+      "nom": "Seifoulah",
+      "email": "Seifoulah@exemple.com"
+    }
+  ],
+  "emprunts": [
+    {
+      "livre": {
+        "titre": "48 lois du pouvoir",
+        "auteur": "Robert Greene",
+        "annee": 1998,
+        "categorie": "Dev personnel",
+        "emprunte": true
+      },
+      "utilisateur": {
+        "nom": "Seifoulah",
+        "email": "Seifoulah@exemple.com"
+      },
+      "dateEmprunt": "2024-11-25"
+    }
+  ]
+}
